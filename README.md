@@ -2,7 +2,7 @@
 DomDiff challenge - comparing two HTML DOMs
 
 
-The code provided uses Puppeteer and JSDOM to compare two versions of a webpage and generate descriptive sentences about the differences.
+The code uses Puppeteer and JSDOM to compare two versions of a webpage and generate descriptive sentences about the differences.
 
 The `compareDOMs` function takes the HTML of two versions of the webpage and compares them to find added and removed elements. It uses JSDOM to parse the HTML and then compares the elements in the two DOMs to identify the changes.
 
